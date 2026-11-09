@@ -16,4 +16,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ github.token }}
           LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
-          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.CSRTTOKEN }}
